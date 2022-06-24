@@ -49,8 +49,6 @@ export function Video(props: VideoProps) {
     fetchPolicy: 'no-cache',
   })
 
-  console.log(data)
-
   if (!data) {
     return (
       <div className="flex-1">
